@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(to right, #3525af, #9153c9);
+}
+
+.Main_resume {
+  width: 1500px;
+  background: #fff;
+  margin: 25px auto;
+  display: flex;
+}
+
+.column {
+  background: #e2f3f9;
+  width: 250px;
+  padding: 0 35px;
+  color: black;
+}
+
+.row {
+  width: calc(100% - 250px);
+  padding: 12px;
+}
+
+.column .Profile_image {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.column .Profile_image img {
+  width: 200px;
+  border-radius: 30px;
+}
+
+.contactinfo {
+  list-style: none;
+}
+
+.Personal_info {
+  margin-top: 30px;
+}
+
+.Heading {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  color: #3525af;
+  position: relative;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.skills ul,
+.skill-name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header {
+  background: #59a9b5;
+  padding: 15px 30px;
+  color: #fff;
+  height: 240px;
+}
+
+.header .name {
+  font-size: 52px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+.header .role {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.header .about {
+  margin-top: 20px;
+  line-height: 26px;
+}
